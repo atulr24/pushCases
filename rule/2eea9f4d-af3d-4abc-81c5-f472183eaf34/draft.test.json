@@ -4,20 +4,22 @@
  "isList": true,
  "dataList": [
   {
-   "createdAt": "2026-06-18T10:57:45.113Z",
-   "updatedAt": "2026-06-18T11:00:28.266533Z",
+   "createdAt": "2026-06-18T11:00:14.309Z",
+   "updatedAt": "2026-06-18T11:00:14.309Z",
    "isDeleted": false,
-   "entityId": "4561aabb-4b39-4137-b720-6445b37461af",
-   "name": "Test By Ingeritance",
+   "entityId": "41ec8243-0035-46e0-a3db-7214f89e57f4",
+   "name": "Test 1",
    "input": {
     "ci": {
-     "Last": {
- "value": "Raizadab"
+     "Name": {
+ "value": "Add"
 }
     }
    },
    "output": {
-    "action": null,
+    "action": {
+ "action_1": true
+},
     "additionalOutput": {
  
 },
