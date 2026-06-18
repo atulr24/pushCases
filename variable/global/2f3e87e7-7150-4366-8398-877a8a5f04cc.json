@@ -1,0 +1,20 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2026-06-18T12:02:36.313Z",
+  "updatedAt": "2026-06-18T12:02:36.313Z",
+  "isDeleted": false,
+  "entityId": "2f3e87e7-7150-4366-8398-877a8a5f04cc",
+  "name": "branchGlobal",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "string",
+  "value": {
+   "data": "alsoSad",
+   "isSecret": false,
+   "canReset": false
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}
