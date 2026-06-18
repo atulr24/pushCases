@@ -1,0 +1,34 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-06-18T10:57:45.113Z",
+   "updatedAt": "2026-06-18T10:57:45.113Z",
+   "isDeleted": false,
+   "entityId": "4561aabb-4b39-4137-b720-6445b37461af",
+   "name": "Test By Ingeritance",
+   "input": {
+    "ci": {
+     "Last": {
+ "value": "Raizada"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ 
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ }
+]
+   }
+  }
+ ]
+}

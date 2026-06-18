@@ -2,32 +2,32 @@
  "entityType": "rule",
  "category": "decisionTable",
  "data": {
-  "createdAt": "2026-06-18T10:51:58.319Z",
-  "updatedAt": "2026-06-18T10:57:58.316679Z",
+  "createdAt": "2026-06-18T10:56:56.039Z",
+  "updatedAt": "2026-06-18T10:57:17.226075Z",
   "isDeleted": false,
   "testedAt": "0001-01-01T00:00:00Z",
   "publishedAt": "0001-01-01T00:00:00Z",
-  "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
+  "entityId": "c26a0599-f21d-4788-99c9-f51764263754",
   "version": "draft",
-  "name": "Test123",
-  "commitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
+  "name": "new123",
+  "commitId": "commit-e0ab43d1-0f2d-47be-bcd3-6e60819b4b33",
   "status": "draft",
   "lastVersion": "",
   "isLive": false,
   "commitInfo": {
-   "title": "Created at 2026-06-18 10:51:58",
-   "timeStamp": "2026-06-18T10:51:58.319724383Z"
+   "title": "Created at 2026-06-18 10:56:56",
+   "timeStamp": "2026-06-18T10:56:56.039443591Z"
   },
   "customInput": {
-   "Name": {
- "name": "Name",
+   "Last": {
+ "name": "Last",
  "dataType": "string",
  "isOptional": false,
  "isNullable": false,
  "isCaseSensitive": false,
  "attribute": "",
  "sourceType": "",
- "executedValue": "Atul",
+ "executedValue": "Raizada",
  "config": null,
  "value": "",
  "next": "",
@@ -41,7 +41,7 @@
     "rule_01": {
  "nextId": "",
  "prevId": "",
- "firstOutputData": "output_5DfpnM",
+ "firstOutputData": "",
  "isEnabled": true,
  "annotation": ""
 }
@@ -54,60 +54,23 @@
 }
    },
    "results": {
-    "result_85XMia": {
- "nextId": "",
- "prevId": "",
- "dataType": "string",
- "keyName": "result_1",
- "schemaId": ""
-}
+    
    },
    "firstRow": "rule_01",
    "firstProperty": "rule_03",
-   "firstResult": "result_85XMia",
+   "firstResult": "",
    "firstAggOutputData": ""
   },
   "action": {
    "then": {
     "outputData": {
-     "output_5DfpnM": {
- "name": "result_1",
- "dataType": "string",
- "returnType": "",
- "value": "Value",
- "next": "",
- "executedValue": "Value",
- "attribute": "",
- "source": "",
- "schemaId": ""
-}
+     
     },
     "actionNode": {
-     "actionData_action_1": {
- "name": "action_1",
- "connectorId": "",
- "entity": "rule",
- "entityId": "c26a0599-f21d-4788-99c9-f51764263754",
- "pluginName": "",
- "config": {
-  "query": ""
- },
- "input": {
-  "Last": {
- "name": "Last",
- "dataType": "string",
- "source": "",
- "attribute": "",
- "value": "Age",
- "sendNull": false,
- "notSend": false
-}
- },
- "next": ""
-}
+     
     },
     "firstOutputData": "",
-    "firstActionNode": "actionData_action_1"
+    "firstActionNode": ""
    },
    "else": {
     "outputData": null,
@@ -118,8 +81,8 @@
   },
   "conditions": {
    "nodes": {
-    "rhs_aRGNOy": {
- "value": "Atul",
+    "rhs_pbdy7T": {
+ "value": "Raizada",
  "sourceType": "",
  "name": "",
  "operator": "",
@@ -167,7 +130,7 @@
   "rule_03"
  ],
  "rightNode": [
-  "rhs_aRGNOy"
+  "rhs_pbdy7T"
  ],
  "siblingIndex": 1,
  "returnType": ""
@@ -179,7 +142,7 @@
  "operator": "",
  "dataType": "string",
  "nodeType": "params",
- "attribute": "Name",
+ "attribute": "Last",
  "query": "",
  "parent": "",
  "children": null,
@@ -191,7 +154,7 @@
    },
    "startNode": ""
   },
-  "firstCustomInput": "Name",
+  "firstCustomInput": "Last",
   "firstRuleChain": "",
   "ruleSetPolicy": "",
   "description": "",
@@ -228,20 +191,5 @@
   "isDemo": false,
   "warnings": [],
   "schemaVersion": "0.1.1"
- },
- "dependencies": [
-  {
-   "isDeleted": false,
-   "createdAt": "2026-06-18T10:57:54.293327Z",
-   "updatedAt": "2026-06-18T10:57:58.320188Z",
-   "entityCommitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
-   "entityType": "rule",
-   "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
-   "entityVersion": "draft",
-   "entityNodeId": "then-actionData_action_1",
-   "dependencyType": "rule",
-   "dependencyId": "c26a0599-f21d-4788-99c9-f51764263754",
-   "dependencyVersion": "draft"
-  }
- ]
+ }
 }
