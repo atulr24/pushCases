@@ -3,7 +3,7 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2026-06-18T10:51:58.319Z",
-  "updatedAt": "2026-06-18T11:08:43.471917Z",
+  "updatedAt": "2026-06-18T11:11:04.276266Z",
   "isDeleted": false,
   "testedAt": "0001-01-01T00:00:00Z",
   "publishedAt": "0001-01-01T00:00:00Z",
@@ -117,6 +117,32 @@
   "headers": [],
   "method": "GET",
   "path": "/posts/2",
+  "query": "",
+  "queryParams": [],
+  "settings": {
+ "cache": {
+ "cacheKeys": "",
+ "duration": {
+ "unit": "d",
+ "value": 0
+},
+ "enabled": false
+}
+}
+ },
+ "input": null,
+ "next": "actionData_action_3"
+},
+     "actionData_action_3": {
+ "name": "action_3",
+ "connectorId": "16fa0ad6-09e1-4eb5-97ab-4fcb8d5737f0",
+ "entity": "",
+ "entityId": "",
+ "pluginName": "restAPI",
+ "config": {
+  "headers": [],
+  "method": "GET",
+  "path": "/posts/3",
   "query": "",
   "queryParams": [],
   "settings": {
@@ -261,7 +287,7 @@
   {
    "isDeleted": false,
    "createdAt": "2026-06-18T10:57:54.293327Z",
-   "updatedAt": "2026-06-18T11:08:43.478282Z",
+   "updatedAt": "2026-06-18T11:11:04.283213Z",
    "entityCommitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
    "entityType": "rule",
    "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
@@ -273,8 +299,21 @@
   },
   {
    "isDeleted": false,
+   "createdAt": "2026-06-18T11:10:56.932609Z",
+   "updatedAt": "2026-06-18T11:11:04.282376Z",
+   "entityCommitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
+   "entityType": "rule",
+   "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
+   "entityVersion": "draft",
+   "entityNodeId": "then-actionData_action_3",
+   "dependencyType": "connector",
+   "dependencyId": "16fa0ad6-09e1-4eb5-97ab-4fcb8d5737f0",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
    "createdAt": "2026-06-18T11:08:26.458664Z",
-   "updatedAt": "2026-06-18T11:08:43.47692Z",
+   "updatedAt": "2026-06-18T11:11:04.281315Z",
    "entityCommitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
    "entityType": "rule",
    "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
