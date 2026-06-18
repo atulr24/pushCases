@@ -1,0 +1,207 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-06-18T11:24:07.365Z",
+   "updatedAt": "2026-06-18T11:24:07.365Z",
+   "isDeleted": false,
+   "entityId": "cf86ab80-56d5-4d7b-b3b9-11755a172d4d",
+   "name": "Test 4",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "output": [
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "name": "Test123",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "result_1": "qw",
+  "rowError": null,
+  "rowId": 1
+ }
+]
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "name": "randomDT",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ }
+]
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-06-18T11:24:07.357Z",
+   "updatedAt": "2026-06-18T11:24:07.357Z",
+   "isDeleted": false,
+   "entityId": "c04dc989-81d8-4dbc-87b9-6eb95aeee72f",
+   "name": "Test 3",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "output": [
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "name": "Test123",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "result_1": "qw",
+  "rowError": null,
+  "rowId": 1
+ }
+]
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "name": "randomDT",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ }
+]
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-06-18T11:24:07.35Z",
+   "updatedAt": "2026-06-18T11:24:07.35Z",
+   "isDeleted": false,
+   "entityId": "49d7ec3d-5843-40ea-be99-995adefff6e3",
+   "name": "Test 2",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "output": [
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "name": "Test123",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "result_1": "qw",
+  "rowError": null,
+  "rowId": 1
+ }
+]
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "name": "randomDT",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ }
+]
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-06-18T11:23:55.969Z",
+   "updatedAt": "2026-06-18T11:23:55.969Z",
+   "isDeleted": false,
+   "entityId": "6ec9c8a2-71b5-422c-84b2-4aa3a3a5349d",
+   "name": "Test 1Rulest",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "output": [
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "name": "Test123",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "result_1": "qw",
+  "rowError": null,
+  "rowId": 1
+ }
+]
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "name": "randomDT",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ }
+]
+ }
+]
+   }
+  }
+ ]
+}
