@@ -1,0 +1,34 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-06-18T11:52:18.377Z",
+   "updatedAt": "2026-06-18T11:52:18.377Z",
+   "isDeleted": false,
+   "entityId": "dac8e930-32e1-48cd-a181-64cb6ad27af1",
+   "name": "Test Manual",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ 
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ }
+]
+   }
+  }
+ ]
+}

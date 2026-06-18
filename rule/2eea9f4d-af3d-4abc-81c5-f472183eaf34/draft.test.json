@@ -4,6 +4,33 @@
  "isList": true,
  "dataList": [
   {
+   "createdAt": "2026-06-18T11:51:50.526Z",
+   "updatedAt": "2026-06-18T11:52:37.997881Z",
+   "isDeleted": false,
+   "entityId": "3baeebfd-9efa-4e5d-b4ed-6b423a3d0c4c",
+   "name": "Test Manual",
+   "input": {
+    "ci": {
+     "Name": {
+ "value": "TestManual"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ 
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ }
+]
+   }
+  },
+  {
    "createdAt": "2026-06-18T11:11:16.104Z",
    "updatedAt": "2026-06-18T11:39:23.847952Z",
    "isDeleted": false,
