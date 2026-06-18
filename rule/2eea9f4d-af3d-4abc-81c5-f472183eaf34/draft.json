@@ -3,7 +3,7 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2026-06-18T10:51:58.319Z",
-  "updatedAt": "2026-06-18T10:57:58.316679Z",
+  "updatedAt": "2026-06-18T11:08:43.471917Z",
   "isDeleted": false,
   "testedAt": "0001-01-01T00:00:00Z",
   "publishedAt": "0001-01-01T00:00:00Z",
@@ -28,7 +28,9 @@
  "attribute": "",
  "sourceType": "",
  "executedValue": "Atul",
- "config": null,
+ "config": {
+  
+ },
  "value": "",
  "next": "",
  "previous": "",
@@ -103,6 +105,32 @@
  "notSend": false
 }
  },
+ "next": "actionData_action_2"
+},
+     "actionData_action_2": {
+ "name": "action_2",
+ "connectorId": "58165455-1a4d-4a94-a2a7-44b4c0ab3651",
+ "entity": "",
+ "entityId": "",
+ "pluginName": "restAPI",
+ "config": {
+  "headers": [],
+  "method": "GET",
+  "path": "/posts/2",
+  "query": "",
+  "queryParams": [],
+  "settings": {
+ "cache": {
+ "cacheKeys": "",
+ "duration": {
+ "unit": "d",
+ "value": 0
+},
+ "enabled": false
+}
+}
+ },
+ "input": null,
  "next": ""
 }
     },
@@ -233,7 +261,7 @@
   {
    "isDeleted": false,
    "createdAt": "2026-06-18T10:57:54.293327Z",
-   "updatedAt": "2026-06-18T10:57:58.320188Z",
+   "updatedAt": "2026-06-18T11:08:43.478282Z",
    "entityCommitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
    "entityType": "rule",
    "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
@@ -242,6 +270,19 @@
    "dependencyType": "rule",
    "dependencyId": "c26a0599-f21d-4788-99c9-f51764263754",
    "dependencyVersion": "draft"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-06-18T11:08:26.458664Z",
+   "updatedAt": "2026-06-18T11:08:43.47692Z",
+   "entityCommitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
+   "entityType": "rule",
+   "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
+   "entityVersion": "draft",
+   "entityNodeId": "then-actionData_action_2",
+   "dependencyType": "connector",
+   "dependencyId": "58165455-1a4d-4a94-a2a7-44b4c0ab3651",
+   "dependencyVersion": "live"
   }
  ]
 }
