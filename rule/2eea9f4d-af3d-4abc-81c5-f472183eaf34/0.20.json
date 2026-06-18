@@ -1,34 +1,38 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
-  "createdAt": "2026-06-18T11:21:57.756Z",
-  "updatedAt": "2026-06-18T11:44:33.99844Z",
+  "createdAt": "2026-06-18T10:51:58.319Z",
+  "updatedAt": "2026-06-18T11:45:31.532Z",
   "isDeleted": false,
-  "testedAt": "0001-01-01T00:00:00Z",
-  "publishedAt": "0001-01-01T00:00:00Z",
-  "entityId": "dadf8ea2-645d-4317-bf0c-d4d4af9422c4",
-  "version": "draft",
-  "name": "randomDT",
-  "commitId": "commit-8ca3668f-7bf3-41c1-97f3-797bf415fb49",
-  "status": "draft",
-  "lastVersion": "",
-  "isLive": false,
+  "testedAt": "2026-06-18T11:45:16.676Z",
+  "publishedAt": "2026-06-18T11:45:31.527Z",
+  "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
+  "version": "0.20",
+  "name": "Test123",
+  "commitId": "commit-c26fc193-4fee-408f-90e7-2dd08a22552b",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
   "commitInfo": {
-   "title": "Created at 2026-06-18 11:21:57",
-   "timeStamp": "2026-06-18T11:21:57.756310554Z"
+   "title": "Forked from 0.10",
+   "description": "v2",
+   "timeStamp": "2026-06-18T11:45:31.526Z"
   },
   "customInput": {
-   "Age": {
- "name": "Age",
- "dataType": "numeric",
+   "Name": {
+ "name": "Name",
+ "dataType": "string",
  "isOptional": false,
  "isNullable": false,
  "isCaseSensitive": false,
  "attribute": "",
  "sourceType": "",
- "executedValue": 29,
- "config": null,
+ "executedValue": "Atul",
+ "config": {
+  
+ },
  "value": "",
  "next": "",
  "previous": "",
@@ -38,31 +42,17 @@
   "ruleChain": null,
   "decisionTable": {
    "rows": {
-    "g_JOX9Gn": {
+    "g_0izwmM": {
  "nextId": "",
- "prevId": "g_qCtpP2",
- "firstOutputData": "output_3yyUvN",
- "isEnabled": true,
- "annotation": ""
-},
-    "g_XX1RqF": {
- "nextId": "g_qCtpP2",
  "prevId": "rule_01",
- "firstOutputData": "output_b53w6b",
- "isEnabled": true,
- "annotation": ""
-},
-    "g_qCtpP2": {
- "nextId": "g_JOX9Gn",
- "prevId": "g_XX1RqF",
- "firstOutputData": "output_EVkkfO",
+ "firstOutputData": "output_HbFNZ7",
  "isEnabled": true,
  "annotation": ""
 },
     "rule_01": {
- "nextId": "g_XX1RqF",
+ "nextId": "g_0izwmM",
  "prevId": "",
- "firstOutputData": "output_LIC0jD",
+ "firstOutputData": "output_5DfpnM",
  "isEnabled": true,
  "annotation": ""
 }
@@ -75,7 +65,7 @@
 }
    },
    "results": {
-    "result_Cn0zea": {
+    "result_85XMia": {
  "nextId": "",
  "prevId": "",
  "dataType": "string",
@@ -85,13 +75,13 @@
    },
    "firstRow": "rule_01",
    "firstProperty": "rule_03",
-   "firstResult": "result_Cn0zea",
+   "firstResult": "result_85XMia",
    "firstAggOutputData": ""
   },
   "action": {
    "then": {
     "outputData": {
-     "output_3yyUvN": {
+     "output_5DfpnM": {
  "name": "result_1",
  "dataType": "string",
  "returnType": "",
@@ -102,29 +92,7 @@
  "source": "",
  "schemaId": ""
 },
-     "output_EVkkfO": {
- "name": "result_1",
- "dataType": "string",
- "returnType": "",
- "value": "Value",
- "next": "",
- "executedValue": "Value",
- "attribute": "",
- "source": "",
- "schemaId": ""
-},
-     "output_LIC0jD": {
- "name": "result_1",
- "dataType": "string",
- "returnType": "",
- "value": "Value",
- "next": "",
- "executedValue": "Value",
- "attribute": "",
- "source": "",
- "schemaId": ""
-},
-     "output_b53w6b": {
+     "output_HbFNZ7": {
  "name": "result_1",
  "dataType": "string",
  "returnType": "",
@@ -151,16 +119,16 @@
   },
   "conditions": {
    "nodes": {
-    "c_OZqece": {
+    "c_aYRing": {
  "value": null,
  "sourceType": "",
  "name": "Any",
  "operator": "any",
- "dataType": "numeric",
+ "dataType": "string",
  "nodeType": "condition",
  "attribute": "",
  "query": "",
- "parent": "g_qCtpP2",
+ "parent": "g_0izwmM",
  "children": null,
  "leftNode": [
   "rule_03"
@@ -169,43 +137,7 @@
  "siblingIndex": 1,
  "returnType": ""
 },
-    "c_sp6oO1": {
- "value": null,
- "sourceType": "",
- "name": "Any",
- "operator": "any",
- "dataType": "numeric",
- "nodeType": "condition",
- "attribute": "",
- "query": "",
- "parent": "g_JOX9Gn",
- "children": null,
- "leftNode": [
-  "rule_03"
- ],
- "rightNode": [],
- "siblingIndex": 1,
- "returnType": ""
-},
-    "c_uNycH9": {
- "value": null,
- "sourceType": "",
- "name": "Any",
- "operator": "any",
- "dataType": "numeric",
- "nodeType": "condition",
- "attribute": "",
- "query": "",
- "parent": "g_XX1RqF",
- "children": null,
- "leftNode": [
-  "rule_03"
- ],
- "rightNode": [],
- "siblingIndex": 1,
- "returnType": ""
-},
-    "g_JOX9Gn": {
+    "g_0izwmM": {
  "value": null,
  "sourceType": "",
  "name": "",
@@ -216,55 +148,19 @@
  "query": "",
  "parent": "",
  "children": [
-  "c_sp6oO1"
+  "c_aYRing"
  ],
  "leftNode": null,
  "rightNode": null,
  "siblingIndex": 1,
  "returnType": ""
 },
-    "g_XX1RqF": {
- "value": null,
- "sourceType": "",
- "name": "",
- "operator": "and",
- "dataType": "",
- "nodeType": "group",
- "attribute": "",
- "query": "",
- "parent": "",
- "children": [
-  "c_uNycH9"
- ],
- "leftNode": null,
- "rightNode": null,
- "siblingIndex": 1,
- "returnType": ""
-},
-    "g_qCtpP2": {
- "value": null,
- "sourceType": "",
- "name": "",
- "operator": "and",
- "dataType": "",
- "nodeType": "group",
- "attribute": "",
- "query": "",
- "parent": "",
- "children": [
-  "c_OZqece"
- ],
- "leftNode": null,
- "rightNode": null,
- "siblingIndex": 1,
- "returnType": ""
-},
-    "rhs_GuossO": {
- "value": 29,
+    "rhs_aRGNOy": {
+ "value": "Atul",
  "sourceType": "",
  "name": "",
  "operator": "",
- "dataType": "numeric",
+ "dataType": "string",
  "nodeType": "constant",
  "attribute": "",
  "query": "",
@@ -297,8 +193,8 @@
  "value": "",
  "sourceType": "",
  "name": "",
- "operator": "gt",
- "dataType": "numeric",
+ "operator": "eq",
+ "dataType": "string",
  "nodeType": "condition",
  "attribute": "",
  "query": "",
@@ -308,7 +204,7 @@
   "rule_03"
  ],
  "rightNode": [
-  "rhs_GuossO"
+  "rhs_aRGNOy"
  ],
  "siblingIndex": 1,
  "returnType": ""
@@ -318,9 +214,9 @@
  "sourceType": "customInput",
  "name": "",
  "operator": "",
- "dataType": "numeric",
+ "dataType": "string",
  "nodeType": "params",
- "attribute": "Age",
+ "attribute": "Name",
  "query": "",
  "parent": "",
  "children": null,
@@ -332,7 +228,7 @@
    },
    "startNode": ""
   },
-  "firstCustomInput": "Age",
+  "firstCustomInput": "Name",
   "firstRuleChain": "",
   "ruleSetPolicy": "",
   "description": "",
@@ -355,7 +251,7 @@
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": ""
+     "Unit": "d"
     },
     "CacheKeys": ""
    },

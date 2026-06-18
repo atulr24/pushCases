@@ -3,21 +3,21 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2026-06-18T10:51:58.319Z",
-  "updatedAt": "2026-06-18T11:37:50.112158Z",
+  "updatedAt": "2026-06-18T11:45:31.537325Z",
   "isDeleted": false,
-  "testedAt": "2026-06-18T11:37:44.374Z",
-  "publishedAt": "2026-06-18T11:37:50.087Z",
+  "testedAt": "2026-06-18T11:45:16.676Z",
+  "publishedAt": "2026-06-18T11:45:31.527Z",
   "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
-  "version": "0.10",
+  "version": "0.20",
   "name": "Test123",
-  "commitId": "commit-3808e5f6-c60a-4582-add0-45f7eea30fd0",
+  "commitId": "commit-83aefd1f-2f23-4781-9fed-d69cbe1d0c65",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,
   "commitInfo": {
-   "title": "Created at 2026-06-18 10:51:58",
-   "description": "c1",
-   "timeStamp": "2026-06-18T11:37:50.084Z"
+   "title": "Forked from 0.10",
+   "description": "v2",
+   "timeStamp": "2026-06-18T11:45:31.526Z"
   },
   "customInput": {
    "Name": {
@@ -250,7 +250,7 @@
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": ""
+     "Unit": "d"
     },
     "CacheKeys": ""
    },
