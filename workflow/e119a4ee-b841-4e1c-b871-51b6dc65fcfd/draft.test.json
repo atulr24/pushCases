@@ -1,0 +1,96 @@
+{
+ "entityType": "testcase",
+ "category": "workflow",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-06-18T12:06:04.07Z",
+   "updatedAt": "2026-06-18T12:06:04.07Z",
+   "isDeleted": false,
+   "entityId": "ab0f2466-1308-4b5d-81ab-a0c57f9d65a2",
+   "name": "Test 4",
+   "group": [
+    "G1",
+    "G2"
+   ],
+   "input": {
+    "ci": {
+     "NAme": {
+ "value": "Atuk"
+}
+    }
+   },
+   "output": {
+    "output": {
+ "key_0": "New"
+}
+   }
+  },
+  {
+   "createdAt": "2026-06-18T12:05:36.503Z",
+   "updatedAt": "2026-06-18T12:05:52.243082Z",
+   "isDeleted": false,
+   "entityId": "354efe44-d000-425b-b18d-84b970aec81e",
+   "name": "Test 1",
+   "group": [
+    "G2"
+   ],
+   "input": {
+    "ci": {
+     "NAme": {
+ "value": "Atuk"
+}
+    }
+   },
+   "output": {
+    "output": {
+ "key_0": "New"
+}
+   }
+  },
+  {
+   "createdAt": "2026-06-18T12:05:52.229Z",
+   "updatedAt": "2026-06-18T12:05:52.229Z",
+   "isDeleted": false,
+   "entityId": "d5dda48f-b1f6-4f1b-9ba4-a87168af9172",
+   "name": "Test 3",
+   "group": [
+    "G1"
+   ],
+   "input": {
+    "ci": {
+     "NAme": {
+ "value": "Atuk"
+}
+    }
+   },
+   "output": {
+    "output": {
+ "key_0": "New"
+}
+   }
+  },
+  {
+   "createdAt": "2026-06-18T12:05:52.222Z",
+   "updatedAt": "2026-06-18T12:05:52.222Z",
+   "isDeleted": false,
+   "entityId": "50c66463-7f10-42b1-b5bc-56dc07975330",
+   "name": "Test 2",
+   "group": [
+    "G1"
+   ],
+   "input": {
+    "ci": {
+     "NAme": {
+ "value": "Atuk"
+}
+    }
+   },
+   "output": {
+    "output": {
+ "key_0": "New"
+}
+   }
+  }
+ ]
+}
