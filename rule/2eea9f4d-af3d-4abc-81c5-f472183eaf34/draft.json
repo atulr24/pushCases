@@ -3,7 +3,7 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2026-06-18T10:51:58.319Z",
-  "updatedAt": "2026-06-18T11:11:04.276266Z",
+  "updatedAt": "2026-06-18T11:35:31.849745Z",
   "isDeleted": false,
   "testedAt": "0001-01-01T00:00:00Z",
   "publishedAt": "0001-01-01T00:00:00Z",
@@ -40,8 +40,15 @@
   "ruleChain": null,
   "decisionTable": {
    "rows": {
-    "rule_01": {
+    "g_0izwmM": {
  "nextId": "",
+ "prevId": "rule_01",
+ "firstOutputData": "output_HbFNZ7",
+ "isEnabled": true,
+ "annotation": ""
+},
+    "rule_01": {
+ "nextId": "g_0izwmM",
  "prevId": "",
  "firstOutputData": "output_5DfpnM",
  "isEnabled": true,
@@ -82,6 +89,17 @@
  "attribute": "",
  "source": "",
  "schemaId": ""
+},
+     "output_HbFNZ7": {
+ "name": "result_1",
+ "dataType": "string",
+ "returnType": "",
+ "value": "Value",
+ "next": "",
+ "executedValue": "Value",
+ "attribute": "",
+ "source": "",
+ "schemaId": ""
 }
     },
     "actionNode": {
@@ -105,58 +123,6 @@
  "notSend": false
 }
  },
- "next": "actionData_action_2"
-},
-     "actionData_action_2": {
- "name": "action_2",
- "connectorId": "58165455-1a4d-4a94-a2a7-44b4c0ab3651",
- "entity": "",
- "entityId": "",
- "pluginName": "restAPI",
- "config": {
-  "headers": [],
-  "method": "GET",
-  "path": "/posts/2",
-  "query": "",
-  "queryParams": [],
-  "settings": {
- "cache": {
- "cacheKeys": "",
- "duration": {
- "unit": "d",
- "value": 0
-},
- "enabled": false
-}
-}
- },
- "input": null,
- "next": "actionData_action_3"
-},
-     "actionData_action_3": {
- "name": "action_3",
- "connectorId": "16fa0ad6-09e1-4eb5-97ab-4fcb8d5737f0",
- "entity": "",
- "entityId": "",
- "pluginName": "restAPI",
- "config": {
-  "headers": [],
-  "method": "GET",
-  "path": "/posts/3",
-  "query": "",
-  "queryParams": [],
-  "settings": {
- "cache": {
- "cacheKeys": "",
- "duration": {
- "unit": "d",
- "value": 0
-},
- "enabled": false
-}
-}
- },
- "input": null,
  "next": ""
 }
     },
@@ -172,6 +138,42 @@
   },
   "conditions": {
    "nodes": {
+    "c_aYRing": {
+ "value": null,
+ "sourceType": "",
+ "name": "Any",
+ "operator": "any",
+ "dataType": "string",
+ "nodeType": "condition",
+ "attribute": "",
+ "query": "",
+ "parent": "g_0izwmM",
+ "children": null,
+ "leftNode": [
+  "rule_03"
+ ],
+ "rightNode": [],
+ "siblingIndex": 1,
+ "returnType": ""
+},
+    "g_0izwmM": {
+ "value": null,
+ "sourceType": "",
+ "name": "",
+ "operator": "and",
+ "dataType": "",
+ "nodeType": "group",
+ "attribute": "",
+ "query": "",
+ "parent": "",
+ "children": [
+  "c_aYRing"
+ ],
+ "leftNode": null,
+ "rightNode": null,
+ "siblingIndex": 1,
+ "returnType": ""
+},
     "rhs_aRGNOy": {
  "value": "Atul",
  "sourceType": "",
@@ -287,7 +289,7 @@
   {
    "isDeleted": false,
    "createdAt": "2026-06-18T10:57:54.293327Z",
-   "updatedAt": "2026-06-18T11:11:04.283213Z",
+   "updatedAt": "2026-06-18T11:35:31.853672Z",
    "entityCommitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
    "entityType": "rule",
    "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
@@ -296,32 +298,6 @@
    "dependencyType": "rule",
    "dependencyId": "c26a0599-f21d-4788-99c9-f51764263754",
    "dependencyVersion": "draft"
-  },
-  {
-   "isDeleted": false,
-   "createdAt": "2026-06-18T11:10:56.932609Z",
-   "updatedAt": "2026-06-18T11:11:04.282376Z",
-   "entityCommitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
-   "entityType": "rule",
-   "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
-   "entityVersion": "draft",
-   "entityNodeId": "then-actionData_action_3",
-   "dependencyType": "connector",
-   "dependencyId": "16fa0ad6-09e1-4eb5-97ab-4fcb8d5737f0",
-   "dependencyVersion": "live"
-  },
-  {
-   "isDeleted": false,
-   "createdAt": "2026-06-18T11:08:26.458664Z",
-   "updatedAt": "2026-06-18T11:11:04.281315Z",
-   "entityCommitId": "commit-c81cc5b4-dfb5-4f6f-a641-c86ab3e1add1",
-   "entityType": "rule",
-   "entityId": "2eea9f4d-af3d-4abc-81c5-f472183eaf34",
-   "entityVersion": "draft",
-   "entityNodeId": "then-actionData_action_2",
-   "dependencyType": "connector",
-   "dependencyId": "58165455-1a4d-4a94-a2a7-44b4c0ab3651",
-   "dependencyVersion": "live"
   }
  ]
 }
